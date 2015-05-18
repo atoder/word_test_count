@@ -1,12 +1,7 @@
 require 'minitest/autorun'
 require_relative '../lib/word_sequence.rb'
 
-# Basic sample tests
-#
-# TODO:
-# Add more generic tests,
-# EXCEPTION checking when file is not present,
-# making sure sequence and words file exists after writing, etc
+# Sample Tests
 #
 describe WordSequence, "Word Sequence Challenge"  do
 
