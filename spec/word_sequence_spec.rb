@@ -27,7 +27,7 @@ describe WordSequence, "Word Sequence Challenge"  do
     it "has created the sequence and words files" do
       ws.sort_and_get_uniques
       ws.write_to_files
-      File.exist?("sequence.txt").wont_equal false
+      File.exist?("sequences.txt").wont_equal false
       File.exist?("words.txt").wont_equal false
     end
   end

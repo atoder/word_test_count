@@ -37,7 +37,7 @@ class WordSequence
     puts 
   end
 
-  def write_to_files(sequence_file = "sequence.txt", words_file = "words.txt")
+  def write_to_files(sequence_file = "sequences.txt", words_file = "words.txt")
     sequence_file = File.open(sequence_file, 'w')
     words_file = File.open(words_file, 'w')
     @seq_hash.each do |seq, word|
