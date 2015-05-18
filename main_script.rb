@@ -7,8 +7,6 @@ if file_name.nil? || file_name.empty?
   file_name = "sample.txt"
 end
 
-exit()
-
 word_sequence = WordSequence.new
 
 # Step 1 - Read the file and get array of all words

@@ -1,3 +1,23 @@
+# Solution
+To run the main program from the main directory type in 
+```
+ruby main_script.rb dictionary.txt
+```
+
+This will generate sequence.txt and words.txt
+
+To run tests and assertions type in
+```
+ruby spec/word_sequence_spec.rb
+```
+
+from the main directory.
+
+
+
+
+
+# Problem
 Write a program which, given a dictionary, generates two
 output files, 'sequences' and 'words'.  'sequences' should
 contain every sequence of four letters that appears in exactly
@@ -31,3 +51,5 @@ Of course, 'arro' does not appear in the output, since it is
 found in more than one word.
 
 For the final solution, read in the following dictionary file: https://s3.amazonaws.com/cyanna-it/misc/dictionary.txt
+
+
